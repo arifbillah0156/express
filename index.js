@@ -19,7 +19,7 @@ admin.get("/", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send(req.baseUrl);
+  res.send("Hello, Arif Billah");
 });
 
 app.param("id", (req, res, next, id) => {
